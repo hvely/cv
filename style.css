@@ -1,0 +1,104 @@
+@page {
+    size: A4;
+    
+}
+
+
+
+body {
+    margin: 0;
+    background: #f5f3ff;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 30px;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* LEFT SIDE */
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* PROFILE CARD */
+.profile-card {
+    background: linear-gradient(135deg, #ec4899, #8b5cf6);
+    color: white;
+}
+
+.profile-card h1 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    margin: 0;
+}
+
+.job {
+    margin: 10px 0 20px;
+}
+
+.contact p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: white;
+}
+
+/* TITLES */
+h2 {
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.pink {
+    color: #ec4899;
+}
+
+.purple {
+    color: #8b5cf6;
+}
+
+/* RIGHT SIDE */
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* TEXT */
+.principal p {
+    font-size: 14px;
+    color: #374151;
+}
+
+.exp-title {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.company {
+    color: #8b5cf6;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    
+}
