@@ -27,6 +27,17 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
+.card p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card i {
+    color: #8b5cf6;
+    min-width: 20px;
+}
+
 /* LEFT SIDE */
 .left {
     display: flex;
